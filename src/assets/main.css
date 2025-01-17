@@ -1,0 +1,36 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#app::before {
+  background: linear-gradient(135deg, #ffffff, #fafa8897 60%, #dfd40856);
+  z-index: -1;
+  position: absolute;
+  top: 3%;
+  left: 70%;
+  width: 400px;
+  height: 300px;
+  content: '';
+  filter: blur(40px);
+}
+
+#app::after {
+  background: linear-gradient(135deg, #dce71ad7, #e9e93089 60%, #edeee74d);
+  position: absolute;
+  z-index: -1;
+  top: 30%;
+  left: 0%;
+  width: 600px;
+  height: 300px;
+  content: '';
+  filter: blur(60px);
+}
