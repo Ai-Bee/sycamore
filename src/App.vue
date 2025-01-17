@@ -10,6 +10,6 @@ import Navigation from './components/Navigation.vue';
   <RouterView />
 </template>
 
-<style scoped>
-
-</style>
+<!-- 
+Design Inspiration - https://dribbble.com/shots/25294276-HR-Management-Dashboard
+-->
